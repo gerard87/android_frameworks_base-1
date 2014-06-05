@@ -190,7 +190,7 @@ public class RecentsHorizontalScrollView extends HorizontalScrollView
             public void run() {
                 int count = mLinearLayout.getChildCount();
                 // if we have more than one app, don't kill the current one
-                if(count > 1) count--;
+                //if(count > 1) count--;
                 View[] refView = new View[count];
                 for (int i = 0; i < count; i++) {
                     refView[i] = mLinearLayout.getChildAt(i);
