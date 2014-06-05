@@ -2612,6 +2612,12 @@ public final class Settings {
          * @hide
          */
         public static final String IMMERSIVE_LAST_ACTIVE_STATE = "immersive_last_active_state";
+        
+        /**
+         * Height of navigation bar buttons
+         * @hide
+         */
+        public static final String NAV_BUTTONS_HEIGHT = "nav_buttons_height";
 
         /**
          * Quick settings tiles to show on status bar
